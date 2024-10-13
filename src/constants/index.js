@@ -8,24 +8,23 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   git,
   figma,
   docker,
   postgresql,
-  rubyrails,
-  graphql,
+
+  // graphql,
   komikult,
   leaderboard,
   math,
   movie,
   nyeusi,
-  space,
   coverhunt,
   dcc,
   kelhel,
+  python,
   microverse,
 } from '../assets';
 
@@ -69,6 +68,10 @@ const technologies = [
     icon: html,
   },
   {
+    name: 'Python',
+    icon: python,
+  },
+  {
     name: 'CSS 3',
     icon: css,
   },
@@ -84,10 +87,10 @@ const technologies = [
     name: 'React JS',
     icon: reactjs,
   },
-  {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
+  // {
+  //   name: 'Redux Toolkit',
+  //   icon: redux,
+  // },
   {
     name: 'Tailwind CSS',
     icon: tailwind,
@@ -96,14 +99,11 @@ const technologies = [
     name: 'Node JS',
     icon: nodejs,
   },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
+  
+  // {
+  //   name: 'graphql',
+  //   icon: graphql,
+  // },
   {
     name: 'postgresql',
     icon: postgresql,

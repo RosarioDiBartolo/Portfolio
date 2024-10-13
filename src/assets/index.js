@@ -1,3 +1,4 @@
+
 import bwmap from './backgrounds/bw-map.jpeg';
 import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
@@ -37,6 +38,7 @@ import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
+import python from "./tech/python.png"
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -78,6 +80,7 @@ export {
   git,
   graphql,
   html,
+  python,
   javascript,
   nodejs,
   postgresql,

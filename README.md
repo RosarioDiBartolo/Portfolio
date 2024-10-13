@@ -20,6 +20,12 @@ All projects and experiences included in this portfolio are the result of my own
 - Framer Motion
 - TailwindCSS
 
+## To-Do List
+- [x] Task 1: Updating hero name
+- [ ] Task 2: Updating tech stack
+  - Made partially
+- [ ] Task 3: Updating "logo-text-black.png" file.
+
 ## Live Demo
 
 - Click [here](https://shaq-portfolio.netlify.app/) to view the live demo.
