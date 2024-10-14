@@ -22,7 +22,7 @@ All projects and experiences included in this portfolio are the result of my own
 
 ## To-Do List
 - [x] Task 1: Updating hero name
-- [ ] Task 2: Updating tech stack
+- [x] Task 2: Updating tech stack
   - Made partially
 - [ ] Task 3: Updating "logo-text-black.png" file.
 - [ ] Task 4: Updating .
