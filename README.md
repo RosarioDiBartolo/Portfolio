@@ -25,6 +25,22 @@ All projects and experiences included in this portfolio are the result of my own
 - [ ] Task 2: Updating tech stack
   - Made partially
 - [ ] Task 3: Updating "logo-text-black.png" file.
+- [ ] Task 4: Updating .
+  - Deleting software prototyping
+  - Adding "PWA Development" service
+- [ ] Task 5: Updating Projects.
+- [ ] Task 6: Updating Work Experience.
+- [ ] Task 7: Changing "Contact" section behaviour (i don't like it).
+- [ ] Task 8: Generally updating README.
+  - Updating "Title"
+  - Updating "Autors"
+  - Updating "Live Demo"
+  - Updating "Set Up"
+  - Updating "Feedback and Contributions"
+- [ ] Task 9: Actually finding a job...
+
+    
+
 
 ## Live Demo
 
