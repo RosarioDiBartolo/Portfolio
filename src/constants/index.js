@@ -2,7 +2,7 @@ import {
   frontend,
   backend,
   ux,
-  prototyping,
+   pwa,
   javascript,
   typescript,
   html,
@@ -57,8 +57,8 @@ const services = [
     icon: ux,
   },
   {
-    title: 'Software Prototyping',
-    icon: prototyping,
+    title: 'PWA Developer',
+    icon: pwa,
   },
 ];
 

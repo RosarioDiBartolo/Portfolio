@@ -41,13 +41,18 @@ const Hero = () => {
               <span
                 className="sm:text-battleGray sm:text-[90px] 
                 text-eerieBlack text-[50px] font-mova
-                font-extrabold uppercase">
-                Rosario
+                font-extrabold uppercase whitespace-nowrap">
+                Rosario Di Bartolo
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              Lorem ipsum dolor sit amet. <br className="sm:block hidden" />
-              consectetur adipisicing elit deleniti, voluptas.
+            <span className='sm:text-battleGray   
+                text-eerieBlack  font-mova
+                font-extrabold uppercase'>  A professional developer </span>  <br className="sm:block hidden" />
+              Bringing your ideas to life with expert development solutions.
+              Explore my work and see what I can build for you. <br/><span onClick={()=> {
+                document.getElementById("About").scrollIntoView({behavior: "smooth"})
+               }} className=' hover:underline hover:!text-slate-500   cursor-default' > Check it out. </span>
             </p>
           </div>
           <div
@@ -80,15 +85,15 @@ const Hero = () => {
           </a>
         </div>
 
-        {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
+        {/* Image.*/}
         <div>
-          <img
+          {/* <img
             className="absolute bottom-0 ml-[50vw] 
             lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
             sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
             src={shaq}
             alt="Rosario"
-          />
+          /> */}
         </div>
       </section>
     </>

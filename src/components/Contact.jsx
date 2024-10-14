@@ -1,11 +1,11 @@
 import { useState, useRef } from 'react';
-import { motion } from 'framer-motion';
+import {   motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 import { send, sendHover } from '../assets';
-
+ import SocialsLinks from "./SocialsLinks"
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -29,16 +29,16 @@ const Contact = () => {
     //click on create a new template then click on save.
     emailjs
       .send(
-        'serviceID', // paste your ServiceID here (you'll get one when your service is created).
-        'templateID', // paste your TemplateID here (you'll find it under email templates).
+        'service_rgaiyoc', // paste your ServiceID here (you'll get one when your service is created).
+        'template_e653ceg', // paste your TemplateID here (you'll find it under email templates).
         {
           from_name: form.name,
-          to_name: 'YourName', // put your name here.
+          to_name: 'Rosario Di Bartolo',  
           from_email: form.email,
-          to_email: 'youremail@gmail.com', //put your email here.
+          to_email: 'marcodibartolo2@gmail.com',  
           message: form.message,
         },
-        'yourpublickey' //paste your Public Key here. You'll get it in your profile section.
+        'q10kTd0iv5yy4_ik2' //paste your Public Key here. You'll get it in your profile section.
       )
       .then(
         () => {
@@ -117,7 +117,7 @@ const Contact = () => {
               border-none font-medium resize-none"
             />
           </label>
-
+          <div className=' flex justify-between items-center'> 
           <button
             type="submit"
             className="live-demo flex justify-center sm:gap-4 
@@ -143,6 +143,9 @@ const Contact = () => {
               w-[23px] h-[23px] object-contain"
             />
           </button>
+
+             <SocialsLinks />
+           </div>
         </form>
       </motion.div>
     </div>
@@ -150,3 +153,4 @@ const Contact = () => {
 };
 
 export default SectionWrapper(Contact, 'contact');
+ 
