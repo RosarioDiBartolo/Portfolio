@@ -24,8 +24,8 @@ All projects and experiences included in this portfolio are the result of my own
 - [x] Task 1: Updating hero name
 - [x] Task 2: Updating tech stack
   - Made partially
-- [ ] Task 3: Updating "logo-text-black.png" file.
-- [ ] Task 4: Updating .
+- [x] Task 3: Updating "logo-text-black.png" file.
+- [x] Task 4: Updating Services .
   - Deleting software prototyping
   - Adding "PWA Development" service
 - [ ] Task 5: Updating Projects.
