@@ -4,7 +4,8 @@ I created this portfolio to show my skills and share some of my public projects.
 
 ## License and Attribution
 
-The code in this repository is released under the [MIT](https://github.com/RosarioDiBartolo/Portfolio/blob/90213d4887074d1d29434f706afad3d12fa33f5f/MIT.md) License, which grants you the freedom to use, modify, and distribute the template as your own. However, if you choose to use the site's design largely unmodified, kindly credit me as the original designer of the site.
+The code in this repository is released under the [MIT](https://github.com/RosarioDiBartolo/Portfolio/blob/main/MIT.md
+) License, which grants you the freedom to use, modify, and distribute the template as your own. However, if you choose to use the site's design largely unmodified, kindly credit me as the original designer of the site.
 
 All projects and experiences included in this portfolio are the result of my own efforts and creativity. Please refrain from presenting them as your own.
 
