@@ -79,7 +79,7 @@ const ProjectCard = ({
               demo && 
               <button
               className="live-demo flex justify-between 
-              sm:text-[16px] text-[14px] text-timberWolf 
+              sm:text-[16px] text-[14px] text-timbe0rWolf 
               font-bold font-beckman items-center py-5 pl-2 pr-3 
               whitespace-nowrap gap-1 sm:w-[138px] sm:h-[50px] 
               w-[125px] h-[46px] rounded-[10px] glassmorphism 

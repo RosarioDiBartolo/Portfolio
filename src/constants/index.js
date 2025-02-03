@@ -16,9 +16,7 @@ import {
   postgresql,
 
   // graphql,
-  RickieApp,
-  leaderboard,
-  math,
+  RickieApp, 
   movie,
   nyeusi,
   coverhunt,
@@ -27,6 +25,7 @@ import {
   python,
   microverse,
   GPTScraper,
+  Template
 } from '../assets';
 
 export const navLinks = [
@@ -201,15 +200,15 @@ const projects = [
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Next js + firebase template',
+    description: 'Startup free, open-source, and premium-quality startup website template for Next.js comes with everything you need to launch a startup, business, or SaaS website, including all essential sections, components, and pages.',
     tags: [
       {
         name: 'nextjs',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'firebase',
         color: 'green-text-gradient',
       },
       {
@@ -217,9 +216,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    image: Template,
+    repo: 'https://github.com/RosarioDiBartolo/startup-nextjs/tree/main',
+    demo: 'https://new-startup-nextjs-template.vercel.app/',
   },
   {
     id: 'project-4',

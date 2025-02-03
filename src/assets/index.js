@@ -48,6 +48,7 @@ import microverse from './company/microverse.png';
 
 import RickieApp from './projects/rickie-app.jpg';
 import GPTScraper from './projects/gpt-scraper.png';
+import Template from './projects/Template.png';
 
 import leaderboard from './projects/leaderboard.png';
 import math from './projects/math-magicians.png';
@@ -94,6 +95,7 @@ export {
   tailwind,
   typescript,
   RickieApp,
+  Template,
   GPTScraper,
   leaderboard,
   math,
