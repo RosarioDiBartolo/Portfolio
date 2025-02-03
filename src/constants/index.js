@@ -26,6 +26,7 @@ import {
   kelhel,
   python,
   microverse,
+  GPTScraper,
 } from '../assets';
 
 export const navLinks = [
@@ -178,9 +179,9 @@ const projects = [
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'GPTScraper',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'A puppeter.js script to open a connection with chat gpt and using it along with other softwares to implment a free option to openai API',
     tags: [
       {
         name: 'react',
@@ -195,9 +196,8 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    image: GPTScraper,
+    repo: 'https://github.com/RosarioDiBartolo/GPTscraper' 
   },
   {
     id: 'project-3',
