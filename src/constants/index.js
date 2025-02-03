@@ -16,7 +16,7 @@ import {
   postgresql,
 
   // graphql,
-  komikult,
+  RickieApp,
   leaderboard,
   math,
   movie,
@@ -156,8 +156,8 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: '095',
+    description: 'A web app to listen and view to the new album from Rickie snice.',
     tags: [
       {
         name: 'react',
@@ -172,9 +172,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    image: RickieApp,
+    repo: 'https://github.com/RosarioDiBartolo/095Vite/tree/main',
+    demo: 'https://095-vite.vercel.app/',
   },
   {
     id: 'project-2',
